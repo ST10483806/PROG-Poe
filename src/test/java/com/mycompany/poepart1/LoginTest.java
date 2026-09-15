@@ -91,7 +91,7 @@ public class LoginTest {
 
     @Test
     public void testGetPassword() {
-        System.out.println("getPassword");
+        System.out.println("");
         Login instance = new Login();
         String expResult = "";
         String result = instance.getPassword();

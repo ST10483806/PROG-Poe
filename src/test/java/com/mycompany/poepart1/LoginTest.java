@@ -58,7 +58,7 @@ public class LoginTest {
 
     @Test
     public void testLoginUser() {
-        System.out.println("loginUser");
+        System.out.println("");
         String enteredUsername = "";
         String enteredPassword = "";
         Login instance = new Login();
@@ -141,7 +141,7 @@ public class LoginTest {
     @Test
     public void testSetPassword() {
         System.out.println("setPassword");
-        String password = "";
+        String password = "Ch&&sec@ke";
         Login instance = new Login();
         instance.setPassword(password);
         fail("The test case is a prototype.");

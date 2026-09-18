@@ -69,7 +69,7 @@ public class LoginTest {
     
     @Test
     public void testCheckCellPhoneNumber_Correct() {
-        // Test Data: "+27838968976" → should return true
+        // Test Data: "+27838968976" : should return true
         Login instance = new Login("kyl_1", 
                 "Ch&&sec@ke99!", 
                 "+27838968976", 
@@ -80,7 +80,7 @@ public class LoginTest {
 
     @Test
     public void testCheckCellPhoneNumber_Incorrect() {
-        // Test Data: "08966553" → should return false
+        // Test Data: "08966553" : should return false
         Login instance = new Login("kyl_1", 
                 "Ch&&sec@ke99!", 
                 "08966553", 

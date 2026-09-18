@@ -39,10 +39,10 @@ public class Login {
 
     /**
      * Checks password complexity:
-     * - At least 8 characters
-     * - Contains a capital letter
-     * - Contains a number
-     * - Contains a special character
+     *  At least 8 characters
+     *  Contains a capital letter
+     *  Contains a number
+     *  Contains a special character
      */
     public boolean checkPasswordComplexity() {
         if (password == null || password.length() < 8) {

@@ -16,162 +16,138 @@ public class LoginTest {
     public LoginTest() {
     }
 
+    // ========== USERNAME TESTS ==========
+    
     @Test
-    public void testCheckUserName() {
-        System.out.println("checkUserName");
-        Login instance = new Login();
-        boolean expResult = false;
-        boolean result = instance.checkUserName();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+    public void testCheckUserName_Correct() {
+        // Test Data: "kyl_1" → should return true
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertTrue(instance.checkUserName());
     }
 
     @Test
-    public void testCheckPasswordComplexity() {
-        System.out.println("checkPasswordComplexity");
-        Login instance = new Login();
-        boolean expResult = false;
-        boolean result = instance.checkPasswordComplexity();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+    public void testCheckUserName_Incorrect() {
+        // Test Data: "kyle!!!!!!!" → should return false
+        Login instance = new Login("kyle!!!!!!!", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertFalse(instance.checkUserName());
+    }
+
+    // ========== PASSWORD TESTS ==========
+    
+    @Test
+    public void testCheckPasswordComplexity_Correct() {
+        // Test Data: "Ch&&sec@ke99!" → should return true
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertTrue(instance.checkPasswordComplexity());
     }
 
     @Test
-    public void testCheckCellPhoneNumber() {
-        System.out.println("checkCellPhoneNumber");
-        Login instance = new Login();
-        boolean expResult = false;
-        boolean result = instance.checkCellPhoneNumber();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+    public void testCheckPasswordComplexity_Incorrect() {
+        // Test Data: "password" → should return false
+        Login instance = new Login("kyl_1", "password", "+27838968976", "Kyle", "Smith");
+        assertFalse(instance.checkPasswordComplexity());
+    }
+
+    // ========== CELL PHONE TESTS ==========
+    
+    @Test
+    public void testCheckCellPhoneNumber_Correct() {
+        // Test Data: "+27838968976" → should return true
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertTrue(instance.checkCellPhoneNumber());
     }
 
     @Test
-    public void testRegisterUser() {
-        System.out.println("registerUser");
-        Login instance = new Login();
-        String expResult = "";
+    public void testCheckCellPhoneNumber_Incorrect() {
+        // Test Data: "08966553" → should return false
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "08966553", "Kyle", "Smith");
+        assertFalse(instance.checkCellPhoneNumber());
+    }
+
+    // ========== REGISTER USER TESTS ==========
+    
+    @Test
+    public void testRegisterUser_Success() {
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
         String result = instance.registerUser();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        assertTrue(result.contains("successfully") || result.contains("captured") || result.contains("added"));
     }
 
     @Test
-    public void testLoginUser() {
-        System.out.println("");
-        String enteredUsername = "";
-        String enteredPassword = "";
-        Login instance = new Login();
-        boolean expResult = false;
-        boolean result = instance.loginUser(enteredUsername, enteredPassword);
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+    public void testRegisterUser_UsernameFail() {
+        Login instance = new Login("kyle!!!!!!!", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        String result = instance.registerUser();
+        assertTrue(result.contains("Username is not correctly formatted"));
     }
 
     @Test
-    public void testReturnLoginStatus() {
-        System.out.println("returnLoginStatus");
-        boolean loginSuccess = false;
-        Login instance = new Login();
-        String expResult = "";
-        String result = instance.returnLoginStatus(loginSuccess);
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+    public void testRegisterUser_PasswordFail() {
+        Login instance = new Login("kyl_1", "password", "+27838968976", "Kyle", "Smith");
+        String result = instance.registerUser();
+        assertTrue(result.contains("Password is not correctly formatted"));
     }
 
+    // ========== LOGIN USER TESTS ==========
+    
+    @Test
+    public void testLoginUser_Success() {
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        boolean result = instance.loginUser("kyl_1", "Ch&&sec@ke99!");
+        assertTrue(result);
+    }
+
+    @Test
+    public void testLoginUser_Failed() {
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        boolean result = instance.loginUser("wrong", "wrong");
+        assertFalse(result);
+    }
+
+    // ========== RETURN LOGIN STATUS TESTS ==========
+    
+    @Test
+    public void testReturnLoginStatus_Success() {
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        String result = instance.returnLoginStatus(true);
+        assertTrue(result.contains("Welcome") && result.contains("Kyle") && result.contains("Smith"));
+    }
+
+    @Test
+    public void testReturnLoginStatus_Failed() {
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        String result = instance.returnLoginStatus(false);
+        assertEquals("Username or password incorrect, please try again.", result);
+    }
+
+    // ========== GETTER TESTS (optional but good) ==========
+    
     @Test
     public void testGetUsername() {
-        System.out.println("getUsername");
-        Login instance = new Login();
-        String expResult = "";
-        String result = instance.getUsername();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertEquals("kyl_1", instance.getUsername());
     }
 
     @Test
     public void testGetPassword() {
-        System.out.println("");
-        Login instance = new Login();
-        String expResult = "";
-        String result = instance.getPassword();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertEquals("Ch&&sec@ke99!", instance.getPassword());
     }
 
     @Test
     public void testGetCellPhoneNumber() {
-        System.out.println("getCellPhoneNumber");
-        Login instance = new Login();
-        String expResult = "";
-        String result = instance.getCellPhoneNumber();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertEquals("+27838968976", instance.getCellPhoneNumber());
     }
 
     @Test
     public void testGetFirstName() {
-        System.out.println("getFirstName");
-        Login instance = new Login();
-        String expResult = "";
-        String result = instance.getFirstName();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertEquals("Kyle", instance.getFirstName());
     }
 
     @Test
     public void testGetLastName() {
-        System.out.println("getLastName");
-        Login instance = new Login();
-        String expResult = "";
-        String result = instance.getLastName();
-        assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        Login instance = new Login("kyl_1", "Ch&&sec@ke99!", "+27838968976", "Kyle", "Smith");
+        assertEquals("Smith", instance.getLastName());
     }
-
-    @Test
-    public void testSetUsername() {
-        System.out.println("setUsername");
-        String username = "";
-        Login instance = new Login();
-        instance.setUsername(username);
-        fail("The test case is a prototype.");
-    }
-
-    @Test
-    public void testSetPassword() {
-        System.out.println("setPassword");
-        String password = "Ch&&sec@ke";
-        Login instance = new Login();
-        instance.setPassword(password);
-        fail("The test case is a prototype.");
-    }
-
-    @Test
-    public void testSetCellPhoneNumber() {
-        System.out.println("setCellPhoneNumber");
-        String cellPhoneNumber = "";
-        Login instance = new Login();
-        instance.setCellPhoneNumber(cellPhoneNumber);
-        fail("The test case is a prototype.");
-    }
-
-    @Test
-    public void testSetFirstName() {
-        System.out.println("setFirstName");
-        String firstName = "";
-        Login instance = new Login();
-        instance.setFirstName(firstName);
-        fail("The test case is a prototype.");
-    }
-
-    @Test
-    public void testSetLastName() {
-        System.out.println("setLastName");
-        String lastName = "";
-        Login instance = new Login();
-        instance.setLastName(lastName);
-        fail("The test case is a prototype.");
-    }
-    
 }

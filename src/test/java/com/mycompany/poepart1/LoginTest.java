@@ -20,7 +20,7 @@ public class LoginTest {
     
     @Test
     public void testCheckUserName_Correct() {
-        // Test Data: "kyl_1" → should return true
+        // Test Data: "kyl_1" : should return true
         Login instance = new Login("kyl_1",
                 "Ch&&sec@ke99!",
                 "+27838968976", 
@@ -31,7 +31,7 @@ public class LoginTest {
 
     @Test
     public void testCheckUserName_Incorrect() {
-        // Test Data: "kyle!!!!!!!" → should return false
+        // Test Data: "kyle!!!!!!!" : should return false
         Login instance = new Login("kyle!!!!!!!", 
                 "Ch&&sec@ke99!", 
                
@@ -45,7 +45,7 @@ public class LoginTest {
     
     @Test
     public void testCheckPasswordComplexity_Correct() {
-        // Test Data: "Ch&&sec@ke99!" → should return true
+        // Test Data: "Ch&&sec@ke99!" : should return true
         Login instance = new Login("kyl_1",
                 "Ch&&sec@ke99!",
                 "+27838968976", 

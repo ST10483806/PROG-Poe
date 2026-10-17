@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.mycompany.PoePart1;
+package com.mycompany.poepart1;
 
 import java.io.FileWriter;
 import java.io.IOException;

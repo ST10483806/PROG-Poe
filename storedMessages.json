@@ -22,3 +22,689 @@
   "recipient": "+27718693002",
   "message": "Hi Mike, can you join us for dinner tonight?"
 },
+{
+  "messageID": "4925109811",
+  "messageHash": "49:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2393133455",
+  "messageHash": "23:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1567059276",
+  "messageHash": "15:6:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6637643186",
+  "messageHash": "66:9:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "9890374699",
+  "messageHash": "98:11:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7949567058",
+  "messageHash": "79:14:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6338597861",
+  "messageHash": "63:16:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7298080212",
+  "messageHash": "72:19:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1926521107",
+  "messageHash": "19:21:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4481553529",
+  "messageHash": "44:24:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2401121564",
+  "messageHash": "24:26:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8804967006",
+  "messageHash": "88:29:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2417291716",
+  "messageHash": "24:31:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1905351233",
+  "messageHash": "19:34:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3691232755",
+  "messageHash": "36:36:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2334776520",
+  "messageHash": "23:39:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2250917663",
+  "messageHash": "22:41:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8727723278",
+  "messageHash": "87:44:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6870337688",
+  "messageHash": "68:47:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1493222934",
+  "messageHash": "14:50:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4023431952",
+  "messageHash": "40:52:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3958991561",
+  "messageHash": "39:55:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2914123335",
+  "messageHash": "29:57:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5469819253",
+  "messageHash": "54:60:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8596098199",
+  "messageHash": "85:63:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8818553031",
+  "messageHash": "88:66:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4148699521",
+  "messageHash": "41:68:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5401451438",
+  "messageHash": "54:71:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "9189780170",
+  "messageHash": "91:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7157601439",
+  "messageHash": "71:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6047914946",
+  "messageHash": "60:6:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7378564372",
+  "messageHash": "73:9:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1312284650",
+  "messageHash": "13:11:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6874238974",
+  "messageHash": "68:14:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7973806956",
+  "messageHash": "79:16:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6287814190",
+  "messageHash": "62:19:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4129706844",
+  "messageHash": "41:21:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5802221116",
+  "messageHash": "58:24:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3688656966",
+  "messageHash": "36:26:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5718939522",
+  "messageHash": "57:29:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7967415542",
+  "messageHash": "79:31:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7876600949",
+  "messageHash": "78:34:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6061258228",
+  "messageHash": "60:36:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8450202850",
+  "messageHash": "84:39:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8354894184",
+  "messageHash": "83:41:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4198807021",
+  "messageHash": "41:44:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3866185961",
+  "messageHash": "38:47:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7145639503",
+  "messageHash": "71:50:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1143940074",
+  "messageHash": "11:52:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7169667563",
+  "messageHash": "71:55:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7346656424",
+  "messageHash": "73:57:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3635010696",
+  "messageHash": "36:60:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6662954574",
+  "messageHash": "66:63:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "9265630934",
+  "messageHash": "92:66:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3645391987",
+  "messageHash": "36:68:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4877170636",
+  "messageHash": "48:71:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1871715665",
+  "messageHash": "18:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2201846142",
+  "messageHash": "22:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5244702617",
+  "messageHash": "52:6:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2730645273",
+  "messageHash": "27:9:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4842168018",
+  "messageHash": "48:11:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6965568827",
+  "messageHash": "69:14:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8873940505",
+  "messageHash": "88:16:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8904660447",
+  "messageHash": "89:19:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3497292818",
+  "messageHash": "34:21:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6211074646",
+  "messageHash": "62:24:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3590002361",
+  "messageHash": "35:26:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "3755132916",
+  "messageHash": "37:29:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5467643039",
+  "messageHash": "54:31:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4502606350",
+  "messageHash": "45:34:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6167722655",
+  "messageHash": "61:36:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8843075887",
+  "messageHash": "88:39:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "9219524959",
+  "messageHash": "92:41:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5415971538",
+  "messageHash": "54:44:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5420250683",
+  "messageHash": "54:47:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2165591752",
+  "messageHash": "21:50:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7563921561",
+  "messageHash": "75:52:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4890875687",
+  "messageHash": "48:55:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7167299070",
+  "messageHash": "71:57:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5600477183",
+  "messageHash": "56:60:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2978853390",
+  "messageHash": "29:63:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7711346656",
+  "messageHash": "77:66:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "9774684531",
+  "messageHash": "97:68:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4858334904",
+  "messageHash": "48:71:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6332684987",
+  "messageHash": "63:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "8916207187",
+  "messageHash": "89:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "4633936545",
+  "messageHash": "46:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1552433135",
+  "messageHash": "15:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7471616234",
+  "messageHash": "74:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1723149599",
+  "messageHash": "17:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "1097110621",
+  "messageHash": "10:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "5972898837",
+  "messageHash": "59:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "2028777007",
+  "messageHash": "20:6:HOWYOU",
+  "recipient": "+",
+  "message": "how are you?",
+  "flag": "Stored"
+},
+{
+  "messageID": "2028777007",
+  "messageHash": "20:6:HOWYOU",
+  "recipient": "+",
+  "message": "how are you?",
+  "flag": "Stored"
+},
+{
+  "messageID": "1071183481",
+  "messageHash": "10:1:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "6125055664",
+  "messageHash": "61:4:OKYOU",
+  "recipient": "+27838884567",
+  "message": "Ok, I am leaving without you.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7915944410",
+  "messageHash": "79:6:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
+{
+  "messageID": "7915944410",
+  "messageHash": "79:6:WHERETIME",
+  "recipient": "+27838884567",
+  "message": "Where are you? You are late! I have asked you to be on time.",
+  "flag": "Stored"
+},
